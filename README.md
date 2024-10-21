@@ -22,7 +22,7 @@ Clone this repo into your Sublime Text Packages directory
     cd ~/"Library/Application Support/Sublime Text 2/Packages/"
     git clone git://github.com/rikkimongoose/WiregockValidator.git
 ###Windows
-    cd `%programfiles%/Sublime Text/Packages`
+    cd `%programfiles%/Sublime Text/Packages/`
     git clone git://github.com/rikkimongoose/WiregockValidator.git
 
 Usage
