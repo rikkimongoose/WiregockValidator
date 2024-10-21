@@ -14,14 +14,13 @@ Installation
 
 Clone this repo into your Sublime Text Packages directory
 (replace 2 with 3 if you use sublime text 3 or with 4 if you use sublime text 4)
-###Linux
+### Linux
     cd ~/.config/sublime-text-2/Packages/
     git clone git://github.com/rikkimongoose/WiregockValidator.git
-
-###Mac
+### Mac
     cd ~/"Library/Application Support/Sublime Text 2/Packages/"
-    git clone git://github.com/rikkimongoose/WiregockValidator.git
-###Windows
+     git clone git://github.com/rikkimongoose/WiregockValidator.git
+### Windows
     cd `%programfiles%/Sublime Text/Packages/`
     git clone git://github.com/rikkimongoose/WiregockValidator.git
 
