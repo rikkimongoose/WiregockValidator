@@ -1,0 +1,13 @@
+[
+    {
+        "id": "tools",
+        "children": [
+            {
+                "id": "ValidateWiregockJSON",
+                "caption": "Validate Wiregock JSON",
+                "command": "wiregock",
+                "mnemonic": "V",
+            }
+        ]
+    }
+]
