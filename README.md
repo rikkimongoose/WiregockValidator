@@ -27,6 +27,6 @@ Clone this repo into your Sublime Text Packages directory
 Usage
 -----
 
-Open JSON file you're going to check, open console with `alt + ~` and hit `ctrl + alt + v`. All errors will be displayed in console.
+Open JSON file you're going to check, open console with `alt + ~` and hit `ctrl + alt + v`. if there're any error, they will appear in console and as dialog window.
 
 *Good luck!*

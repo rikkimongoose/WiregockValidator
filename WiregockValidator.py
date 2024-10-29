@@ -22,16 +22,19 @@ def wiregock_info(msg):
 	return True
 
 def wiregock_validate(text):
-	js = None
+	jsData = None
 	try:
-		js = loads(text)
+		jsData = loads(text)
 	except JSONDecodeError as e:
 		return wiregock_error("Error while parsing JSON:\n{0}\n{1}".format(text, str(e)))
-	if js is None:
+	if jsData is None:
 		return False
-	if 'request' not in js:
-		return wiregock_error("Provided JSON doesn't contain 'request' object")
-	request = js['request']
-	if 'urlPath' not in request and 'urlPattern' not in request:
-		return wiregock_error("Provided JSON 'request' object doesn't contain 'urlPath' or 'urlPattern'")
+	if not isinstance(jsData, list):
+		jsData = [jsData]
+	for js in jsData:
+		if 'request' not in js:
+			return wiregock_error("Provided JSON doesn't contain 'request' object")
+		request = js['request']
+		if 'urlPath' not in request and 'urlPattern' not in request:
+			return wiregock_error("Provided JSON 'request' object doesn't contain 'urlPath' or 'urlPattern'")
 	return wiregock_info("Wiregock validation passed. Everything is OK")
