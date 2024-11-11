@@ -7,7 +7,7 @@ It takes the current opened file, and returns the URL to the clipboard.
 
 Support
 -------
-Sublime Pastebin Plugin supports both [Sublime Text 2](http://www.sublimetext.com/2) and [Sublime Text 3](http://www.sublimetext.com/3) and [Sublime Text 4](http://www.sublimetext.com/)
+Sublime Validator Plugin supports both [Sublime Text 2](http://www.sublimetext.com/2) and [Sublime Text 3](http://www.sublimetext.com/3) and [Sublime Text 4](http://www.sublimetext.com/)
 
 Installation
 ------------
